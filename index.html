@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAFE PROJECT</title>
+    <!--
+         page linking done over here
+         cafe.css  and  phone.css
+     -->
+     <link rel="stylesheet" href="blogs.html">
+    <link rel="stylesheet" href="cafe2.js">
+    <link rel="stylesheet" href="cafe.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <img src="/HTML_BASICS/images2/cafe_logo_3.png" alt="...loading....">
+            </div>
+            <ul class="main_ul_tag">
+                <li class="items"><a href="#navbar">Home</a> </li>
+                <li class="items"><a href="#about">About us</a></li>
+                <!-- <li class="items"><a href="#menu">Menu</a></li> -->
+                <li class="items"><a href="#blog">Blog</a></li>
+                <li class="items"><a href="#review">Reviews</a></li>
+                <li class="items"><a href="#contact_us">Contact Us</a></li>
+            </ul>
+            <div class="order_btn">
+                <button class="btn" onclick="location.href=' order.html ' ">Order Now</button>
+            </div>
+            <div class="new_nav">
+                <div id="ham" onclick="onclickham()">
+                    <div class="bar" id="bar1"></div>
+                    <div class="bar" id="bar2"></div>
+                    <div class="bar" id="bar3"></div>
+                </div>
+                <ul class="new_nav_sub" id="new_nav_sub">
+                    <div class="logo new_nav_logo">
+                        <img src="/HTML_BASICS/images2/cafe_logo_3.png" alt="...loading...."> 
+                        <!-- <img src="/HTML_BASICS/images2/cofee_png_img.png" alt="...loading....">  -->
+                    </div>
+                    <li class="items"><a href="#navbar">Home</a> </li>
+                    <li class="items"><a href="#about">About us</a></li>
+                    <!-- <li class="items"><a href="#menu">Menu</a></li> -->
+                    <li class="items"><a href="#blog">Blog</a></li>
+                    <li class="items"><a href="#review">Reviews</a></li>
+                    <li class="items"><a href="#contact_us">Contact Us</a></li>
+                </ul>
+            </div>
+
+        </nav>
+        <div class="title_body">
+            <div class="title_heading">
+                <h1><span>CAFE</span> MAIFIL</h1>
+                <h2>Provide the best coffee for you</h2>
+                <!-- <h3>Always Fresh & Delightful </h3> -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Corporis facilis, tempora, fuga ea
+                    neque. <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cupiditate <br> agni autem et
+                    expedita, vel exercitationem in odit, <br> ducimus delectus distinctio mollitia quos accusamus, quis
+                    quas
+                    perferendis illo blanditiis reiciendis!
+                </p>
+                <div class="two_btn">
+                    <button id="btn1" onclick="location.href=' #menu ' ">Menu</button>
+                    <button id="btn2" onclick="location.href=' order.html ' ">Order Now</button>
+                </div>
+            </div>
+            <div class="title_img">
+                <!-- <img src="/HTML_BASICS/images2/landing_page_2.jpg" alt=""> -->
+            </div>
+        </div>
+        <!-- <div class="titlebox">
+            <h1>CAFE MAIFIL</h1>
+            <h3>Always Fresh & Delightful </h3>
+            <button class="btn" onclick="location.href=' order.html ' ">Order Now</button>
+        </div> -->
+
+
+    </header>
+    <main>
+        <section>
+            <!-- About us Section -->
+
+            <div class="img2">
+                <img src="/HTML_BASICS/images2/cafe_4.jpg" alt="">
+            </div>
+            <div class="heading">
+                <div id="about">
+                    <h1>About Us</h1>
+                </div>
+                <div class="aboutus">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quisquam accusantium nostrum
+                    modi, nemo, officia veritatis ipsum facere maxime assumenda voluptatum enim! Labore maiores placeat
+                    impedit, vero sed est voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
+                    alias dicta autem, maiores doloremque quo perferendis, ut obcaecati harum,
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum necessitatibus iste,nulla recusandae
+                    porro minus nemo eaque cum repudiandae quidem voluptate magnam voluptatum?
+                    Nobis, saepe sapiente omnis qui eligendi pariatur. quis voluptas. Assumenda facere adipisci quaerat.
+                    Illum doloremque quae omnis vitae.
+                    <br>
+                    Lonsectetur adipisicing elit. Blanditiis aspernatur, ratione dolore vero asperiores explicabo.
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit
+                    soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum,
+                    nostrum, quidem.
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Our menu Section -->
+
+        <div class="menu" id="menu">
+            <div class="menu_heading">
+                <h1>OUR MENU</h1>
+            </div>
+            <div class="menu_body">
+                <div class="row">
+                    <div class="mimage">
+                        <div class="menu_img">
+                            <img src="/HTML_BASICS/images2/menu1.jpg" alt="...loading...">
+                        </div>
+                        <div class="menu_des">
+                            <div class="menu_price">
+                                <h3>Food title</h3>
+                                <p>$50</p>
+                            </div>
+                            <div class="menu_details">
+                                Lorem ipsum dolor sit amet
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mimage">
+                        <div class="menu_img">
+                            <img src="/HTML_BASICS/images2/img2.jpg" alt="...loading...">
+                        </div>
+                        <div class="menu_des">
+                            <div class="menu_price">
+                                <h3>Food title</h3>
+                                <p>$50</p>
+                            </div>
+                            <div class="menu_details">
+                                Lorem ipsum dolor sit amet
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mimage">
+                        <div class="menu_img">
+                            <img src="/HTML_BASICS/images2/img2.jpg" alt="...loading...">
+                        </div>
+                        <div class="menu_des">
+                            <div class="menu_price">
+                                <h3>Food title</h3>
+                                <p>$50</p>
+                            </div>
+                            <div class="menu_details">
+                                Lorem ipsum dolor sit amet
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="mimage">
+                        <div class="menu_img">
+                            <img src="/HTML_BASICS/images2/img2.jpg" alt="...loading...">
+                        </div>
+                        <div class="menu_des">
+                            <div class="menu_price">
+                                <h3>food title</h3>
+                                <p>$50</p>
+                            </div>
+                            <div class="menu_details">
+                                Lorem ipsum dolor sit amet
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mimage">
+                        <div class="menu_img">
+                            <img src="/HTML_BASICS/images2/img2.jpg" alt="...loading...">
+                        </div>
+                        <div class="menu_des">
+                            <div class="menu_price">
+                                <h3>Food title</h3>
+                                <p>$50</p>
+                            </div>
+                            <div class="menu_details">
+                                Lorem ipsum dolor sit amet
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mimage">
+                        <div class="menu_img">
+                            <img src="/HTML_BASICS/images2/img2.jpg" alt="...loading...">
+                        </div>
+                        <div class="menu_des">
+                            <div class="menu_price">
+                                <h3>food title</h3>
+                                <p>$50</p>
+                            </div>
+                            <div class="menu_details">
+                                Lorem ipsum dolor sit amet
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="mimage">
+                        <div class="menu_img">
+                            <img src="/HTML_BASICS/images2/img2.jpg" alt="...loading...">
+                        </div>
+                        <div class="menu_des">
+                            <div class="menu_price">
+                                <h3>food title</h3>
+                                <p>$50</p>
+                            </div>
+                            <div class="menu_details">
+                                Lorem ipsum dolor sit amet
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mimage">
+                        <div class="menu_img">
+                            <img src="/HTML_BASICS/images2/img2.jpg" alt="...loading...">
+                        </div>
+                        <div class="menu_des">
+                            <div class="menu_price">
+                                <h3>food title</h3>
+                                <p>$50</p>
+                            </div>
+                            <div class="menu_details">
+                                Lorem ipsum dolor sit amet
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mimage">
+                        <div class="menu_img">
+                            <img src="/HTML_BASICS/images2/img2.jpg" alt="...loading...">
+                        </div>
+                        <div class="menu_des">
+                            <div class="menu_price">
+                                <h3>food title</h3>
+                                <p>$50</p>
+                            </div>
+                            <div class="menu_details">
+                                Lorem ipsum dolor sit amet
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- EVENTS Section -->
+
+        <div class="events" id="blog">
+            <h1>EVENTS AT THE CAFE MAIFIL</h1>
+            <div class="foods">
+                <div class="item">
+                    <img src="/HTML_BASICS/images2/img11.jpg" alt="....loading...">
+                    <div class="food_btn">
+                        <button onclick="location.href=' order.html ' ">10 $</button>
+                        <h2>Adipso Totam</h2>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quos unde maxime hic?
+                            Quam,
+                            iure? Earum deserunt ipsam numquam quo.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="/HTML_BASICS/images2/img16.jpg" alt="....loading...">
+                    <div class="food_btn">
+                        <button onclick="location.href=' order.html ' ">30 $</button>
+                        <h2>Adipso Totam</h2>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quos unde maxime hic?
+                            Quam,
+                            iure? Earum deserunt ipsam numquam quo.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="/HTML_BASICS/images2/img19.jpg" alt="....loading...">
+                    <div class="food_btn">
+                        <button onclick="location.href=' order.html ' ">27 $</button>
+                        <h2>Adipso Totam</h2>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quos unde maxime hic?
+                            Quam,
+                            iure? Earum deserunt ipsam numquam quo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reviews Section -->
+
+        <div class="reviews" id="review">
+            <h1>REVIEWS</h1>
+            <div class="rev_items">
+                <div class="rev">
+                    <h2>John Carter</h2>
+                    <h4>Web Designer</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nam atque ut quo sunt beatae
+                        exercitationem ratione, deleniti modi animi, quod delectus in libero perspiciatis facilis
+                        laboriosam ex alias nobis?
+                    </p>
+                </div>
+                <div class="rev">
+                    <h2>Steve Thomas</h2>
+                    <h4>UX/UI Designer</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nam atque ut quo sunt beatae
+                        exercitationem ratione, deleniti modi animi, quod delectus in libero perspiciatis facilis
+                        laboriosam ex alias nobis?
+                    </p>
+                </div>
+                <div class="rev">
+                    <h2>Miranda Joy</h2>
+                    <h4>Graphic Designer</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nam atque ut quo sunt beatae
+                        exercitationem ratione, deleniti modi animi, quod delectus in libero perspiciatis facilis
+                        laboriosam ex alias nobis?
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact us Section -->
+
+        <div class="contact_us" id="contact_us">
+            <div class="location">
+                <div class="map_img">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60485.5231121054!2d73.70005493125002!3d18.648499499999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9c2e9f56aad%3A0x6f99122a265a88d7!2sMEHFIL%20CAFE!5e0!3m2!1sen!2sin!4v1676380044531!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="map_address">
+                    <h1>Find Us</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo magnam natus maiores nam, odio, eum
+                        fugiat aliquam est corporis totam hic quidem accusamus debitis? Placeat, esse vel. Perspiciatis,
+                        accusantium ducimus!
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi facilis a facere nam quis
+                        perferendis, voluptates natus dolorum ullam odio?</p>
+                    </p>
+                    <div class="icon">
+                        <span class="material-symbols-outlined icon1">
+                            home_pin
+                        </span>
+                        <span class="naming">
+                            12345 Fake ST NoWhere, AB Country
+                        </span>
+                    </div>
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            medical_services
+                        </span>
+                        <span class="naming">
+                            (123) 456-7890
+                        </span>
+                    </div>
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            mail
+                        </span>
+                        <span class="naming">
+                            info@domain.com
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer_above">
+                <div class="email">
+                    <h1>EMAIL US</h1>
+                    <h3>info@domain.com</h3>
+                </div>
+                <div class="call">
+                    <h1>CALL US</h1>
+                    <h3>(123) 456-7890</h3>
+                </div>
+                <div class="find">
+                    <h1>FIND US</h1>
+                    <h3>12345 Fake ST NoWhere AB Country</h3>
+                </div>
+            </div>
+            <div class="footer_below">
+                © Copyright 2045 Made with <span class="material-symbols-outlined"> favorite</span><span>By
+                    DevCRUD</span>
+            </div>
+
+        </footer>
+    </main>
+    
+</body>
+<!-- <script type="text/javascript"></script> -->
+<!-- function onclickham() {
+    document.getElementById("ham").classList.toggle("icon_js");
+    document.getElementById("new_nav_sub").classList.toggle("change");
+    
+} -->
+<script src="cafe2.js"></script>
+</html>
